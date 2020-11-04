@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1031060973325",
+    "firebase_url": "https://fir-auth-9176b.firebaseio.com",
+    "project_id": "fir-auth-9176b",
+    "storage_bucket": "fir-auth-9176b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031060973325:android:7bb505bb37eeeaf2a83244",
+        "android_client_info": {
+          "package_name": "com.bit.jobfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031060973325-3k2b28bfphhbsbkjgfhv0kfsoj9b4abt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2DWffiuhr2TNZDrp3J7NQcZiTjq1Dh1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031060973325-3k2b28bfphhbsbkjgfhv0kfsoj9b4abt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

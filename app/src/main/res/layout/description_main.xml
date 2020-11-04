@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_google_signin_btn_icon_light_normal_background">
+
+    <TextView
+        android:id="@+id/des_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:hint="Title"
+        android:paddingHorizontal="10dp"
+        android:textColor="#084D93"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/des_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/des_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Description"
+        android:lineSpacingExtra="8sp"
+        android:paddingHorizontal="10dp"
+        android:textColor="#3E3A3A"
+        app:layout_constraintBottom_toTopOf="@+id/des_company"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/des_title" />
+
+    <TextView
+        android:id="@+id/des_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:hint="Company"
+        android:paddingHorizontal="10dp"
+        android:textColor="#201E1E"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/des_salary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/des_description" />
+
+    <TextView
+        android:id="@+id/des_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:paddingHorizontal="10dp"
+        android:textColor="#084D93"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/des_company" />
+
+    <TextView
+        android:id="@+id/des_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Location"
+        android:paddingHorizontal="10dp"
+        android:textColor="#292626"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/des_company" />
+</androidx.constraintlayout.widget.ConstraintLayout>
